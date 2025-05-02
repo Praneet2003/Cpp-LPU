@@ -11,7 +11,7 @@ bool isprime(int n){
     return 1;
 }
 int main(){
-    int s,e;
+    int s,e;//
     cin>>s>>e;
     for(int i=s;i<e;i++){
         if(isprime(i)){
